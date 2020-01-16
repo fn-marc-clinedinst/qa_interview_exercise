@@ -1,3 +1,0 @@
-baseurl = ''
-browser = ''
-environment = ''

@@ -26,6 +26,9 @@ def test_user_can_log_in(driver):
     """
     driver.get('https://app.fiscalnote.com/?error=notauthorized')
 
+    click_here_to_log_in_button = driver.find_element_by_class_name('btn')
+    click_here_to_log_in_button.click()
+
     sleep(5)
 
 
